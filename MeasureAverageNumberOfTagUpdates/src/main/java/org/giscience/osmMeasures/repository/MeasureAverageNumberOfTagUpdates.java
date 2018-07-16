@@ -33,6 +33,6 @@ public class MeasureAverageNumberOfTagUpdates extends MeasureOSHDB<Number, OSMCo
                     } catch (Exception e) {}
                     return false;
                 })
-                .average(contribution -> 1));
+                .average(contribution -> 1.));
     }
 }
