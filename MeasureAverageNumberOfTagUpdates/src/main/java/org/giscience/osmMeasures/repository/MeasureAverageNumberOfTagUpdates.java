@@ -23,15 +23,16 @@ public class MeasureAverageNumberOfTagUpdates extends MeasureOSHDB<Number, OSMCo
     @Override
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMContribution> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Cast.result(mapReducer
-            .osmType(OSMType.WAY)
-            .filter(contribution -> {
-                try {
-                    if (contribution.getContributionTypes().contains(ContributionType.TAG_CHANGE)) {
-                        return true;
-                    }
-                } catch (Exception e) {}
-                return false;
-            })
-            .average());
+                .osmType(OSMType.WAY)
+                .osmTag(p.getOSMTag())
+                .filter(contribution -> {
+                    try {
+                        if (contribution.getContributionTypes().contains(ContributionType.TAG_CHANGE)) {
+                            return true;
+                        }
+                    } catch (Exception e) {}
+                    return false;
+                })
+                .average());
     }
 }
