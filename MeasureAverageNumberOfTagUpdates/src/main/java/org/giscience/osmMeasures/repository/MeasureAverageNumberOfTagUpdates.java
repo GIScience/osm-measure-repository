@@ -23,7 +23,6 @@ public class MeasureAverageNumberOfTagUpdates extends MeasureOSHDB<Number, OSMCo
     public SortedMap<GridCell, Number> compute(MapAggregator<GridCell, OSMContribution> mapReducer, OSHDBRequestParameter p) throws Exception {
         return Index.reduce(
                 mapReducer
-                        .osmType(OSMType.WAY)
                         .osmTag(p.getOSMTag())
                         .aggregateBy(contribution -> contribution.getEntityAfter().getId())
                         .map(contribution -> {
