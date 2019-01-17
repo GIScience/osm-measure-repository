@@ -89,7 +89,7 @@ This software is written and maintained by the GIScience Research Group, Institu
 
 The development has been supported by the DFG project *A framework for measuring the fitness for purpose of OpenStreetMap data based on intrinsic quality indicators* (FA 1189/3-1).
 
-(c) by Heidelberg University, 2018.
+(c) by Heidelberg University, 2018–2019.
 
 ## License
 
