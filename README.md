@@ -10,7 +10,7 @@ If you consider this repository to be useful for your work, we would be happy if
 
 * F-B Mocnik, A Mobasheri, L Griesbaum, M Eckle, C Jacobs, and C Klonner: [**A grounding-based ontology of data quality measures**](http://josis.org/index.php/josis/article/viewFile/360/197) Journal of Spatial Information Science, 16, 2018
 
-* F-B Mocnik: [**A Novel Identifier Scheme for the ISEA Aperture 3 Hexagon Discrete Global Grid System.**](http://doi.org/10.1080/15230406.2018.1455157) Cartography and Geographic Information science, 2018
+* F-B Mocnik: [**A Novel Identifier Scheme for the ISEA Aperture 3 Hexagon Discrete Global Grid System.**](http://doi.org/10.1080/15230406.2018.1455157) Cartography and Geographic Information Science 46(3), 2019, 227–291
 
 * F-B Mocnik, A Zipf, and M Raifer: [**The OpenStreetMap folksonomy and its evolution.**](http://doi.org/10.1080/10095020.2017.1368193) Geo-spatial Information Science, 20(3), 2017, 219–230
 
